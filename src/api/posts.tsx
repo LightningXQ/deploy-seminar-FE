@@ -5,7 +5,7 @@ import axios from 'axios';
 
 // 환경 변수에서 가져온 주소 값
 const API_ROUTE = process.env.REACT_APP_API_ROUTE;
-const API_URL = `${API_ROUTE}/api/posts`;
+const API_URL = `${API_ROUTE}api/posts`;
 
 // 게시글의 타입 정의
 export interface Post {
